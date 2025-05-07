@@ -36,9 +36,9 @@ const Calculator: FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black">
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-gray-900 to-black">
       <Navbar />
-      <div className="container mx-auto px-4 py-16">
+      <main className="flex-grow container mx-auto px-4 py-16">
         <div className="max-w-md mx-auto">
           <h1 className="text-4xl font-bold text-center text-white mb-8">
             Free Calculator Tool
@@ -79,7 +79,7 @@ const Calculator: FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
